@@ -38,3 +38,5 @@ run Rails.application # or other command for starting the app
   - `STATSD_ADDR` - the address of the StatsD collector
   - `STATSD_ENV` - should be set to `production`; if not provided, then StatsD will fallback to `RAILS_ENV` or `ENV`
 
+Check <a href="https://github.com/Shopify/statsd-instrument#configuration">Configuration</a> section from the `statsd-instrument` gem for more info.
+
