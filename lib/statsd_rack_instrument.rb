@@ -46,6 +46,8 @@ class StatsDRackInstrument
       '/:uuid\\1'
     ).gsub(
       %r{/\d+(/|$)}, '/:id\\1'
+    ).gsub(
+      %r{/[a-f\d]{24}(/|$)}, '/:object-id\\1'
     )
   end
 end

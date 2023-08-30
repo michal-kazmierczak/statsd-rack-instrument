@@ -31,7 +31,7 @@ if ENV["STATSD_ADDR"].present?
   use StatsDRackInstrument
 end
 
-run Rails.application # or something customized
+run Rails.application # or other command for starting the app
 ```
 
 3. Provide necessary env vars

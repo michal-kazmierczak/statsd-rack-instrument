@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'statsd-rack-instrument'
-  spec.version = '0.0.2'
+  spec.version = '0.1.0'
   spec.authors = ['michal-kazmierczak']
   spec.homepage = 'https://github.com/michal-kazmierczak/statsd-rack-instrument'
   spec.summary = 'StatsD instrumentation for Rack servers'
