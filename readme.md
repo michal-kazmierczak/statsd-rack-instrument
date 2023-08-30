@@ -33,3 +33,8 @@ end
 
 run Rails.application # or something customized
 ```
+
+3. Provide necessary env vars
+  - `STATSD_ADDR` - the address of the StatsD collector
+  - `STATSD_ENV` - should be set to `production`; if not provided, then StatsD will fallback to `RAILS_ENV` or `ENV`
+
