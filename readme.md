@@ -1,6 +1,6 @@
 # statsd-rack-instrument
 
-A Rack middleware to send HTTP metrics via StatsD. A building block toward achieving a Grafana Dashboard like below for a Ruby web server.
+A Rack middleware to send HTTP metrics via StatsD. A building block toward achieving Grafana Dashboard like below for a Ruby web server.
 
 ![Grafana dashboard for Ruby web server](https://mkaz.me/assets/img/external_assets/statsd_rack_instrument_dashboard.png "Grafana dashboard for Ruby web server")
 
