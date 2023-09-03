@@ -40,3 +40,7 @@ run Rails.application # or other command for starting the app
 
 Check <a href="https://github.com/Shopify/statsd-instrument#configuration">Configuration</a> section from the `statsd-instrument` gem for more info.
 
+
+## Using with Prometheus
+
+When combined with <a href="https://github.com/prometheus/statsd_exporter">statsd_exporter</a> it is possible to get exported metrics into Prometheus. Check out <a href="https://mkaz.me/blog/2023/collecting-metrics-from-multi-process-web-servers-the-ruby-case/">"Collecting Prometheus metrics from multi-process web servers, the Ruby case"</a> blog post discussing the idea and how to achieve it.
